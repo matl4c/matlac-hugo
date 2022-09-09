@@ -1,0 +1,17 @@
+baseURL = "https://example.com"
+languageCode = "en-US"
+theme = 'matlac-hugo'
+title = "example.com"
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  favicon = "/favicon.ico"
+  description =  "site description here"
+  asciiHeading = "┌┬┐┌─┐┌┬┐┬   ┌─┐┌─┐\n│││├─┤ │ │   ├─┤│  \n┴ ┴┴ ┴ ┴ ┴─┘o┴ ┴└─┘"
