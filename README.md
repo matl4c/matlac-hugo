@@ -3,7 +3,17 @@ This is a custom hugo theme made for my personal website [matl.ac](https://matl.
 
 I do not care if people use or modify this theme for themselves, but if you do I would love to hear about it! My up to date contact information can be found on my website.
 
-Credits:
+## Usage:
+```
+hugo new site test-site
+cd test-site
+git clone https://github.com/matl4c/matlac-hugo themes/matlac-hugo
+cp -r themes/lugo/exampleSite/* .
+```
+
+- The local instance of the Inconsolata is needed if you want the header to work on all devices. Some other fonts should work, but Inconsolata worked best for me. Having a local instance is needed to maintain the proper header on android devices since some fonts on android devices are rendered slightly differently.
+
+## Credits:
 - [hugo-bearblog](https://github.com/janraasch/hugo-bearblog)
   - My theme is directly derived from this one. The `exampleSite` directory is the same example site used by bearblog. If you are looking for a similar minimal theme, bearblog is one you should check out as my theme would not exist without it.
 - [lugo](https://github.com/lukesmithxyz/lugo)
