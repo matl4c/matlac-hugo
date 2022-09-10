@@ -8,7 +8,7 @@ I do not care if people use or modify this theme for themselves, but if you do I
 hugo new site test-site
 cd test-site
 git clone https://github.com/matl4c/matlac-hugo themes/matlac-hugo
-cp -r themes/lugo/exampleSite/* .
+cp -r themes/matlac-hugo/exampleSite/* .
 ```
 
 - The local instance of the Inconsolata is needed if you want the header to work on all devices. Some other fonts should work, but Inconsolata worked best for me. Having a local instance is needed to maintain the proper header on android devices since some fonts on android devices are rendered slightly differently.
@@ -18,6 +18,7 @@ cp -r themes/lugo/exampleSite/* .
   - My theme is directly derived from this one. The `exampleSite` directory is the same example site used by bearblog. If you are looking for a similar minimal theme, bearblog is one you should check out as my theme would not exist without it.
 - [lugo](https://github.com/lukesmithxyz/lugo)
   - The footer contents came from Luke Smith's minimal hugo theme `lugo`. He also has some very good content on hugo if you are looking to learn more about building your own theme from scratch.
+  - The basic usage instructions also come from lugo.
 - [Team Fortress 2](https://wiki.teamfortress.com/wiki/Template:Paint_Can)
   - All of the colors on my site besides the native hugo code block coloring came from TF2's paint cans. I like the colors of the game and I thought coloring my site in this way would be funny :)
 - [patorjk.com](https://patorjk.com/software/taag/)
